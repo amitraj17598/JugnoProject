@@ -42,6 +42,8 @@ loginBtn = driver.find_element(By.XPATH,"//button[@type='submit']")
 #click on login button
 loginBtn.click()
 
+time.sleep(5)# wait for 5 sec
+
 #reltive xpath to locate web element jugno Dashbord icon and porferm click on icon
 dashbordicon = driver.find_element(By.XPATH,"//input[@class='w-[20px] h-[18px] lg:w-[21px] lg:h-[21px] 2xl:w-[31px] 2xl:h-[31px]']")
 
@@ -49,7 +51,7 @@ dashbordicon = driver.find_element(By.XPATH,"//input[@class='w-[20px] h-[18px] l
 #navbar.click()
 
 
-time.sleep(5) #wait for 5 seconds
+time.sleep(15) #wait for 5 seconds
 
 
 #close the browser window
